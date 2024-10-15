@@ -1,57 +1,86 @@
-/* Grundläggande stilar */
+/* Allmänna stilar */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #24292e;
-    color: #ffffff;
     line-height: 1.6;
-}
-
-/* Container för att centrera innehållet */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Titel */
-h1 {
-    font-size: 2.5em;
-    font-weight: 700;
     color: #ffffff;
-    margin-top: 20px;
-    text-align: center;
+    background-color: #24292e;
 }
 
-/* Sektion för huvudtext */
-h2 {
-    font-size: 1.8em;
-    font-weight: 400;
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-p {
-    font-size: 1.2em;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-
-/* Länkstil */
 a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #ffcc00;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ffcc00;
+    text-decoration: underline;
 }
 
-/* Stilar för "Om mig" sidan */
-.about-section {
-    background-color: #1b1f23;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 8px;
+/* Hero-sektion */
+#hero {
+    background: url('images/bg-image.jpg') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.8em;
+    margin: 0 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.hero-button {
+    background: #ffcc00;
+    color: #24292e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-button:hover {
+    background: #ffd966;
+}
+
+/* Content-sektioner */
+.content-section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Profil */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile img {
+        margin: 0 0 20px 0;
+    }
 }
