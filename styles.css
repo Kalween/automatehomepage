@@ -25,6 +25,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
 .hero-content h1 {
@@ -50,11 +51,23 @@ a:hover {
     background: #ffd966;
 }
 
+/* Transparenta boxar */
+.overlay-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent svart bakgrund */
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* Content-sektioner */
 .content-section {
     padding: 50px 20px;
     max-width: 800px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .content-section h2 {
@@ -62,10 +75,20 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* Profil */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+/* Profilbilden */
 .profile {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .profile img {
@@ -75,6 +98,7 @@ a:hover {
     margin-right: 20px;
 }
 
+/* Anpassning för mobila enheter */
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
