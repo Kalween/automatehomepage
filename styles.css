@@ -53,7 +53,7 @@ a:hover {
 
 /* Transparenta boxar */
 .overlay-box {
-    background-color: rgba(0, 0, 0, 0.6); /* Transparent svart bakgrund */
+    background-color: rgba(0, 0, 0, 0.8); /* Mörkare transparent svart bakgrund */
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
@@ -97,13 +97,4 @@ ul li {
     margin-right: 20px;
 }
 
-/* Anpassning för mobila enheter */
-@media (max-width: 768px) {
-    .profile {
-        flex-direction: column;
-        text-align: center;
-    }
-    .profile img {
-        margin: 0 0 20px 0;
-    }
-}
+/* Anpassning för mobila en
