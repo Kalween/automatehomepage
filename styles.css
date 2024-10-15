@@ -83,6 +83,24 @@ ul li {
     margin-bottom: 15px;
 }
 
+/* Kontakt-ikoner */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
 /* Profilbilden */
 .profile {
     display: flex;
