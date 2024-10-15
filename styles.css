@@ -30,7 +30,7 @@ a:hover {
 
 .hero-content h1 {
     font-size: 2.8em;
-    margin: 0 20px;
+    margin: 0;
 }
 
 .hero-content p {
@@ -56,9 +56,8 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.6); /* Transparent svart bakgrund */
     padding: 20px;
     border-radius: 8px;
-    width: 90%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 
