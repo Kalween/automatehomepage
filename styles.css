@@ -92,14 +92,15 @@ ul li {
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
+    width: 60px; /* Ökad storlek */
+    height: 60px;
     transition: transform 0.2s ease;
 }
 
 .icon:hover {
     transform: scale(1.1);
 }
+
 
 /* Profilbilden */
 .profile {
