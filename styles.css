@@ -53,7 +53,7 @@ a:hover {
 
 /* Transparenta boxar */
 .overlay-box {
-    background-color: rgba(0, 0, 0, 0.8); /* Mörkare transparent svart bakgrund */
+    background-color: rgba(0, 0, 0, 0.4); /* Mörkare transparent svart bakgrund */
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
