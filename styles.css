@@ -53,7 +53,7 @@ a:hover {
 
 /* Transparenta boxar */
 .overlay-box {
-    background-color: rgba(0, 0, 0, 0.4); /* Mörkare transparent svart bakgrund */
+    background-color: rgba(0, 0, 0, 0.8); /* Mörkare transparent svart bakgrund */
     padding: 20px;
     border-radius: 8px;
     max-width: 600px;
@@ -74,47 +74,23 @@ a:hover {
     margin-bottom: 20px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 15px;
-}
-
 /* Kontakt-ikoner */
 .contact-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 20px;
 }
 
 .icon {
-    width: 60px; /* Ökad storlek */
+    width: 60px; /* Storlek på ikonerna */
     height: 60px;
     transition: transform 0.2s ease;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3)); /* Skugga för tydlighet */
 }
 
 .icon:hover {
-    transform: scale(1.1);
-}
-
-
-/* Profilbilden */
-.profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-}
-
-.profile img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
+    transform: scale(1.15);
 }
 
 /* Anpassning för mobila enheter */
