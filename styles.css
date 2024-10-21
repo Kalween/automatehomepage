@@ -104,6 +104,26 @@ a:hover {
     margin-bottom: 15px;
 }
 
+
+/* Kontakt-ikoner */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Justera mellanrum mellan ikonerna */
+    margin-top: 20px;
+}
+
+.icon {
+    width: 40px; /* Skalar ned till 40x40 pixlar */
+    height: 40px;
+    transition: transform 0.2s ease;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3)); /* Skugga för att lyfta ikonerna */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Lätt hover-effekt */
+}
+
 /* Anpassning för mobila enheter */
 @media (max-width: 768px) {
     .profile {
